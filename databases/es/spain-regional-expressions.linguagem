@@ -1,0 +1,153 @@
+{
+  "Configuration": [
+    {
+      "class": "Configuration",
+      "databaseName": "Spain Regional Expressions",
+      "targetLanguage": "es",
+      "createdAt": 1718582400000,
+      "description": "Common informal words and phrases used in Spain that differ from Latin American Spanish."
+    }
+  ],
+  "Capturables": [
+    {
+      "id": 1,
+      "class": "Capturable",
+      "content": "vale",
+      "lastSeen": 0,
+      "captureConfiguration": {
+        "pattern": ["vale"]
+      },
+      "definitions": [
+        {
+          "content": "OK, sure, alright (very common in Spain)",
+          "examples": [
+            {
+              "content": "Vale, nos vemos mañana.",
+              "translations": {
+                "en": "OK, see you tomorrow."
+              },
+              "metadata": {
+                "source": "user-added"
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "tags": ["spain", "informal"]
+      }
+    },
+    {
+      "id": 2,
+      "class": "Capturable",
+      "content": "chaval",
+      "lastSeen": 0,
+      "captureConfiguration": {
+        "pattern": ["chaval"]
+      },
+      "definitions": [
+        {
+          "content": "Kid, young person (Spain, masculine; chavala for feminine)",
+          "examples": [
+            {
+              "content": "Ese chaval es muy simpático.",
+              "translations": {
+                "en": "That kid is very nice."
+              },
+              "metadata": {
+                "source": "user-added"
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "tags": ["spain", "informal"]
+      }
+    },
+    {
+      "id": 3,
+      "class": "Capturable",
+      "content": "tío",
+      "lastSeen": 0,
+      "captureConfiguration": {
+        "pattern": ["tío"]
+      },
+      "definitions": [
+        {
+          "content": "Dude, guy (Spain, informal filler — not always literal 'uncle')",
+          "examples": [
+            {
+              "content": "¡Tío, no me lo puedo creer!",
+              "translations": {
+                "en": "Dude, I can't believe it!"
+              },
+              "metadata": {
+                "source": "user-added"
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "tags": ["spain", "informal", "slang"]
+      }
+    },
+    {
+      "id": 4,
+      "class": "Capturable",
+      "content": "mola",
+      "lastSeen": 0,
+      "captureConfiguration": {
+        "pattern": ["mola"]
+      },
+      "definitions": [
+        {
+          "content": "It's cool, it's great (from molar, to like / to be cool)",
+          "examples": [
+            {
+              "content": "Esta peli mola mucho.",
+              "translations": {
+                "en": "This movie is really cool."
+              },
+              "metadata": {
+                "source": "user-added"
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "tags": ["spain", "informal", "slang"]
+      }
+    },
+    {
+      "id": 5,
+      "class": "Capturable",
+      "content": "currar",
+      "lastSeen": 0,
+      "captureConfiguration": {
+        "pattern": ["currar"]
+      },
+      "definitions": [
+        {
+          "content": "To work (Spain, informal; from trabajo → curro → currar)",
+          "examples": [
+            {
+              "content": "Tengo que currar mañana.",
+              "translations": {
+                "en": "I have to work tomorrow."
+              },
+              "metadata": {
+                "source": "user-added"
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "tags": ["spain", "informal"]
+      }
+    }
+  ]
+}

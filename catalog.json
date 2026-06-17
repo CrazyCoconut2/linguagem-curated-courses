@@ -1,0 +1,14 @@
+{
+  "databases": [
+    {
+      "id": "spain-regional-expressions",
+      "name": "Spain Regional Expressions",
+      "description": "Common informal words and phrases used in Spain that differ from Latin American Spanish.",
+      "targetLanguage": "es",
+      "tags": ["regional", "spain", "informal", "expressions"],
+      "authors": ["linguagem"],
+      "version": "1.0.0",
+      "file": "databases/es/spain-regional-expressions.linguagem"
+    }
+  ]
+}

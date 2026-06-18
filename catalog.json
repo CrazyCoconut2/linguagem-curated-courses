@@ -6,10 +6,11 @@
       "description": "Common informal words and phrases used in Spain that differ from Latin American Spanish.",
       "userLanguage": "en",
       "targetLanguage": "es",
+      "cursus": "regional-expressions",
       "tags": ["regional", "spain", "informal", "expressions"],
       "authors": ["linguagem"],
       "version": "1.0.0",
-      "file": "databases/en-es/spain-regional-expressions.linguagem"
+      "file": "databases/en/es/regional-expressions/spain-regional-expressions.linguagem"
     }
   ]
 }

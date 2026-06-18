@@ -14,14 +14,22 @@ The app accepts the standard Linguagem export format: a JSON file with `Configur
 
 ```
 databases/
-  es/                          # target language code
+  en-es/                       # user_lang-target_lang
     spain-regional-expressions.linguagem
-  pt/
+    beginner-spanish/          # optional cursus subfolder
+      lesson-1.linguagem
+  fr-es/
     ...
 catalog.json                   # index of available databases
 ```
 
-Files are grouped by **target language** (`en`, `es`, `fr`, `pt`, …). Use kebab-case filenames that describe the collection.
+Paths follow `databases/{user_lang}-{target_lang}/[{cursus}/]{name}.linguagem`:
+
+- **user_lang** — language the learner already speaks (matches app UI language)
+- **target_lang** — language being studied
+- **cursus** — optional subfolder for a course track or series
+
+Use kebab-case filenames that describe the collection.
 
 ## Contributing
 

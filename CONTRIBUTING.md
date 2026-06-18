@@ -5,8 +5,10 @@ Thank you for helping build curated databases for Linguagem learners.
 ## Adding a database
 
 1. **Create or export** a database in the Linguagem app (or author the JSON by hand).
-2. **Save** it under `databases/{language-code}/your-database-name.linguagem`.
-   - `{language-code}` is the target language (`es`, `pt`, `fr`, …).
+2. **Save** it under `databases/{user-lang}-{target-lang}/[{cursus}/]your-database-name.linguagem`.
+   - `{user-lang}` is the learner's language (`en`, `fr`, `pt`, …).
+   - `{target-lang}` is the language being studied (`es`, `pt`, `fr`, …).
+   - `{cursus}` is an optional subfolder for a course track or series.
    - Use a descriptive kebab-case filename.
 3. **Add an entry** to [catalog.json](./catalog.json).
 4. **Open a pull request** with a short description of what the database covers.
@@ -84,7 +86,9 @@ A valid `.linguagem` file is JSON with at least:
 | `id` | Stable slug, matches the filename without extension |
 | `name` | Display name |
 | `description` | One or two sentences |
-| `targetLanguage` | ISO-style language code used by Linguagem |
+| `userLanguage` | Learner's language (first part of `databases/{user-lang}-{target-lang}/…`) |
+| `targetLanguage` | Language being studied (second part of `databases/{user-lang}-{target-lang}/…`) |
+| `cursus` | Optional slug when the file lives in a cursus subfolder |
 | `tags` | Optional labels for browsing |
 | `authors` | GitHub username or name |
 | `version` | Semver (`1.0.0`) |

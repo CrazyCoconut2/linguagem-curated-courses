@@ -17,20 +17,22 @@
       "captureConfiguration": {
         "pattern": ["vale"]
       },
+      "examples": [
+        {
+          "id": "a1b2c3d4-e5f6-4789-a012-345678900001",
+          "content": "Vale, nos vemos mañana.",
+          "translations": {
+            "en": "OK, see you tomorrow."
+          },
+          "metadata": {
+            "source": "user-added"
+          }
+        }
+      ],
       "definitions": [
         {
           "content": "OK, sure, alright (very common in Spain)",
-          "examples": [
-            {
-              "content": "Vale, nos vemos mañana.",
-              "translations": {
-                "en": "OK, see you tomorrow."
-              },
-              "metadata": {
-                "source": "user-added"
-              }
-            }
-          ]
+          "exampleIds": ["a1b2c3d4-e5f6-4789-a012-345678900001"]
         }
       ],
       "metadata": {
@@ -45,20 +47,22 @@
       "captureConfiguration": {
         "pattern": ["chaval"]
       },
+      "examples": [
+        {
+          "id": "a1b2c3d4-e5f6-4789-a012-345678900002",
+          "content": "Ese chaval es muy simpático.",
+          "translations": {
+            "en": "That kid is very nice."
+          },
+          "metadata": {
+            "source": "user-added"
+          }
+        }
+      ],
       "definitions": [
         {
           "content": "Kid, young person (Spain, masculine; chavala for feminine)",
-          "examples": [
-            {
-              "content": "Ese chaval es muy simpático.",
-              "translations": {
-                "en": "That kid is very nice."
-              },
-              "metadata": {
-                "source": "user-added"
-              }
-            }
-          ]
+          "exampleIds": ["a1b2c3d4-e5f6-4789-a012-345678900002"]
         }
       ],
       "metadata": {
@@ -73,20 +77,22 @@
       "captureConfiguration": {
         "pattern": ["tío"]
       },
+      "examples": [
+        {
+          "id": "a1b2c3d4-e5f6-4789-a012-345678900003",
+          "content": "¡Tío, no me lo puedo creer!",
+          "translations": {
+            "en": "Dude, I can't believe it!"
+          },
+          "metadata": {
+            "source": "user-added"
+          }
+        }
+      ],
       "definitions": [
         {
           "content": "Dude, guy (Spain, informal filler — not always literal 'uncle')",
-          "examples": [
-            {
-              "content": "¡Tío, no me lo puedo creer!",
-              "translations": {
-                "en": "Dude, I can't believe it!"
-              },
-              "metadata": {
-                "source": "user-added"
-              }
-            }
-          ]
+          "exampleIds": ["a1b2c3d4-e5f6-4789-a012-345678900003"]
         }
       ],
       "metadata": {
@@ -101,20 +107,22 @@
       "captureConfiguration": {
         "pattern": ["mola"]
       },
+      "examples": [
+        {
+          "id": "a1b2c3d4-e5f6-4789-a012-345678900004",
+          "content": "Esta peli mola mucho.",
+          "translations": {
+            "en": "This movie is really cool."
+          },
+          "metadata": {
+            "source": "user-added"
+          }
+        }
+      ],
       "definitions": [
         {
           "content": "It's cool, it's great (from molar, to like / to be cool)",
-          "examples": [
-            {
-              "content": "Esta peli mola mucho.",
-              "translations": {
-                "en": "This movie is really cool."
-              },
-              "metadata": {
-                "source": "user-added"
-              }
-            }
-          ]
+          "exampleIds": ["a1b2c3d4-e5f6-4789-a012-345678900004"]
         }
       ],
       "metadata": {
@@ -129,20 +137,22 @@
       "captureConfiguration": {
         "pattern": ["currar"]
       },
+      "examples": [
+        {
+          "id": "a1b2c3d4-e5f6-4789-a012-345678900005",
+          "content": "Tengo que currar mañana.",
+          "translations": {
+            "en": "I have to work tomorrow."
+          },
+          "metadata": {
+            "source": "user-added"
+          }
+        }
+      ],
       "definitions": [
         {
           "content": "To work (Spain, informal; from trabajo → curro → currar)",
-          "examples": [
-            {
-              "content": "Tengo que currar mañana.",
-              "translations": {
-                "en": "I have to work tomorrow."
-              },
-              "metadata": {
-                "source": "user-added"
-              }
-            }
-          ]
+          "exampleIds": ["a1b2c3d4-e5f6-4789-a012-345678900005"]
         }
       ],
       "metadata": {

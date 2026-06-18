@@ -40,16 +40,18 @@ A valid `.linguagem` file is JSON with at least:
       "content": "vale",
       "lastSeen": 0,
       "captureConfiguration": { "pattern": ["vale"] },
+      "examples": [
+        {
+          "id": "a1b2c3d4-e5f6-4789-a012-345678900001",
+          "content": "Vale, nos vemos mañana.",
+          "translations": { "en": "OK, see you tomorrow." },
+          "metadata": { "source": "user-added" }
+        }
+      ],
       "definitions": [
         {
           "content": "OK, sure (Spain, informal)",
-          "examples": [
-            {
-              "content": "Vale, nos vemos mañana.",
-              "translations": { "en": "OK, see you tomorrow." },
-              "metadata": { "source": "user-added" }
-            }
-          ]
+          "exampleIds": ["a1b2c3d4-e5f6-4789-a012-345678900001"]
         }
       ],
       "metadata": { "tags": ["spain", "informal"] }
@@ -62,7 +64,8 @@ A valid `.linguagem` file is JSON with at least:
 
 - **content** — lowercase, trimmed; this is the headword or phrase learners capture.
 - **captureConfiguration.pattern** — usually matches `content`; can include regex patterns for advanced cases.
-- **definitions** — optional but encouraged; include at least one example when possible.
+- **examples** — optional; each example needs a stable `id` (UUID) and lives on the capturable, not inside definitions.
+- **definitions** — optional but encouraged; link examples via `exampleIds` (array of example UUIDs).
 - **metadata.tags** — use consistent tags (`regional`, `informal`, `course`, `a1`, …) to help learners filter.
 - **lastSeen** — use `0` for curated entries that have not been studied yet.
 

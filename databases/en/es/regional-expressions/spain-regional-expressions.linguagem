@@ -2,6 +2,7 @@
   "Configuration": [
     {
       "class": "Configuration",
+      "id": "1da7c189-10f7-4622-9a5b-3cb45e281bc3",
       "databaseName": "Spain Regional Expressions",
       "targetLanguage": "es",
       "createdAt": 1718582400000,

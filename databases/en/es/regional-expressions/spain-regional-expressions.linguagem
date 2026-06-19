@@ -6,7 +6,7 @@
       "targetLanguage": "es",
       "createdAt": 1718582400000,
       "description": "Common informal words and phrases used in Spain that differ from Latin American Spanish.",
-      "version": "1.0.1",
+      "version": 1,
       "tags": ["regional", "spain", "informal", "expressions"]
     }
   ],

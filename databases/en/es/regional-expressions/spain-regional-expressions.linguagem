@@ -6,7 +6,7 @@
       "targetLanguage": "es",
       "createdAt": 1718582400000,
       "description": "Common informal words and phrases used in Spain that differ from Latin American Spanish.",
-      "version": 1,
+      "version": 2,
       "tags": ["regional", "spain", "informal", "expressions"]
     }
   ],
@@ -159,6 +159,36 @@
       ],
       "metadata": {
         "tags": ["spain", "informal"]
+      }
+    },
+    {
+      "id": 5,
+      "class": "Capturable",
+      "content": "joder",
+      "lastSeen": 0,
+      "captureConfiguration": {
+        "pattern": ["currar"]
+      },
+      "examples": [
+        {
+          "id": "a1b2c3d4-e5f6-4789-a012-345678900005",
+          "content": "Joder, tengo que currar mañana.",
+          "translations": {
+            "en": "I have to work tomorrow."
+          },
+          "metadata": {
+            "source": "user-added"
+          }
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Litterally translates to Fuck",
+          "exampleIds": ["a1b2c3d4-e5f6-4789-a012-345678900005"]
+        }
+      ],
+      "metadata": {
+        "tags": ["spain", "informal", "curse"]
       }
     }
   ]
